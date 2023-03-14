@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+  background-color: #E6EBF7;
+}
+
+.notification-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.notification {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  display: none;
+  position: relative;
+}
+
+.notification p {
+  margin: 0;
+}
+
+.notification .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.notification.show {
+  display: block;
+  animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
+@media (max-height: 500px) {
+  .social_media {
+    display: none !important;
+  }
+}
+
+.contenu{
+  margin: 0 0 0 220px;
+}
+
+h1 {
+  text-align: center;
+  color: #033391;
+}
+ 
+.tableau {
+    margin: 0 0 0 60px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  th {
+    font-size: 120%;
+    background-color: #E8E101;
+    border: 1px solid white;
+    padding: 25px;
+    text-align: left;
+  }
+  
+  td {
+  
+    font-size: 120%;
+    background-color: #E8E101;
+    border: 1px solid white;
+    padding: 30px;
+    text-align: left;
+  }
+  
+  th {
+    font-size: 150%;
+    background-color: #E8E101;
+    color: black;
+  }
+
+  .bouton-categorie{
+    margin-right: 100px;
+  }
+  
+  .bitton {
+    border: 1px solid white;
+    display: inline-block;
+    background-color: #E8E101;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 230%;
+    margin: 14px 6px;
+    cursor: pointer;
+  }
+
+
+  
+  

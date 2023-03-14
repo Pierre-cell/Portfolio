@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+   background-color: #E6EBF7;
+}
+
+.salle {position:relative;display:inline-block;min-width:150px;padding:15px 25px;box-sizing:border-box;font-family:var(--typo1);font-size:1.2em;line-height:1;font-weight:400!important;text-decoration:none!important;text-align:center;text-shadow:none;transition:.5s!important;transform:perspective(1px) translateZ(0);overflow:hidden}
+.bouton {color:var(--c-white)!important;background-color:var(--c1);overflow:visible}
+.bouton:hover {background-color:var(--c1--1)}
+.bouton::after {content:'';position:absolute;top:-16px;left:-16px;right:-16px;bottom:-16px;border:4px solid var(--c-white);opacity:0;transition:0.5s;transition-property:top, right, bottom, left}
+.bouton:hover::after {top:-8px;right:-8px;bottom:-8px;left:-8px;opacity:1}
+
+.salle-bouton {
+  margin: 220%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenu{
+  margin: 0 0 0 220px;
+}

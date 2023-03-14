@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+  background-color: #E6EBF7;
+}
+
+@media (max-height: 500px) {
+  .social_media {
+    display: none !important;
+  }
+}
+
+.contenu{
+  margin: 0 0 0 220px;
+}
+
+.butadd{
+  display: inline-block;
+  color: #A73E3E;
+}
+
+.libre{
+  display: inline-block;
+  color: #A73E3E;
+}
+
+h1 {
+  text-align: center;
+  color: #033391;
+}
+
+.ygalreserver{
+  font-size: 120%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #A73E3E;
+  width: 30vw;
+  height: 4vw;
+}
+
+.ygallibre{
+  font-size: 120%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #3b3a37;
+  width: 30vw;
+  height: 4vw;
+}
+
+.center{
+  display: flex;
+}
+
+.tablelibre{
+  text-align: center;
+  color: #033391;
+  background-color: #A73E3E;
+}
+
+.titre{
+  text-align: center;
+  color: #F4B531;
+}
+
+.bouton1 {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 36px;
+  margin: 10px;
+  cursor: pointer;
+  color: bisque;
+}
+
+
+.reservation1 {
+  font-size: 190%;
+  width: 10vw;
+  height: 10vw;
+  background-color: #3b3a37;
+  color: rgb(255, 255, 255);
+}
+
+.bouton2 {
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 36px;
+  margin: 10px;
+  cursor: pointer;
+  color: bisque;
+  background-color: #A73E3E;
+}
+
+.reservation2 {
+  font-size: 190%;
+  width: 10vw;
+  height: 10vw;
+  background-color: #A73E3E !important;
+  color: white;
+}
+
+

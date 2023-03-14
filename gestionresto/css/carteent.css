@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+  background-color: #E6EBF7;
+}
+
+@media (max-height: 500px) {
+  .social_media {
+    display: none !important;
+  }
+}
+
+.contenu{
+  margin: 0 0 0 220px;
+}
+
+h1 {
+  text-align: center;
+  color: #033391;
+}
+ 
+.tableau {
+    margin: 0 0 0 60px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  th {
+    font-size: 120%;
+    background-color: #E8E101;
+    border: 1px solid white;
+    padding: 25px;
+    text-align: left;
+  }
+  
+  td {
+  
+    font-size: 120%;
+    background-color: #E8E101;
+    border: 1px solid white;
+    padding: 30px;
+    text-align: left;
+  }
+  
+  th {
+    font-size: 150%;
+    background-color: #E8E101;
+    color: black;
+  }
+
+  .bouton-categorie{
+    margin-right: 100px;
+  }
+  
+  .bitton {
+    border: 1px solid white;
+    display: inline-block;
+    background-color: #E8E101;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 230%;
+    margin: 14px 6px;
+    cursor: pointer;
+  }
+
+  .butadd {
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+
+  .material-symbols-outlined {
+    font-size: 120%;
+    color: #000000;
+    width: 50%;
+    padding: 1%;
+    border: none;
+    background-color: #E8E101;
+    border: solid 2px #ffffff;
+    border-radius: 45px;
+  }
+  
+  #bouton:hover {
+    background-color: #ffd68570;
+    color: #034f89;
+    border: solid 2px #ffffff;
+    transition: 0.5s;
+  }
+  
+  #button:hover {
+    background-color: #ffd68570;
+    color: #034f89;
+    border: solid 2px #034f89;
+    transition: 0.5s;
+  }
+  
+
+  .close,
+.fermer {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.lab {
+  position: relative;
+  margin: 10px 20px 10px 10px;
+}
+
+.coteD {
+  position: relative;
+  margin: 10px 20px 10px 10px;
+}
+
+#avatar {
+  margin-top: 10px;
+}
+
+
+.popup,
+.popu {
+  width: 80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  left: 100px;
+  top: 50px;
+  display: none;
+  text-align: center;
+  z-index: 2;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px #0000003c;
+}
+
+.popup-content {
+  width: 80vw;
+  height: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  position: relative;
+  z-index: 2;
+  padding: 0 40px;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+}
+
+.popup h1 {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid silver;
+}
+
+
+.lab input {
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.lab label {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #022d0a;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.popup-content img {
+  border: 1px solid;
+  background: #80909C;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.titrenom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: #033391;
+}
+
+.contenu{
+    margin: 0 0 0 260px;
+}
+
+
+  
