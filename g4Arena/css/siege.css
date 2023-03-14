@@ -1,0 +1,219 @@
+.siegesCo {
+  width: 15px;
+  height: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.siegesCoReserve {
+  width: 15px;
+  height: 15px;
+  align-items: center;
+}
+
+.siegesCA {
+  width: 15px;
+  height: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+.sieges {
+width: 15px;
+height: 15px;
+align-items: center;
+}
+
+.btnsiegeCo, .btnsiege, .btnsiegeCoReserve {
+  border: solid 1px #00203846;
+  border-radius: 20%;
+  box-shadow: 1px 1px 1px #77777734;
+  background-color: white;
+  transition: .3s;
+}
+.btnsiegeR {
+  border: solid 1px #00203846;
+  border-radius: 20%;
+  box-shadow: 1px 1px 1px #77777734;
+  background-color: white;
+  transition: .3s;
+}
+.btnsiegeCo:hover {
+cursor: pointer;
+background-color: #FFD685;
+transform: translateY(-5px);
+transition: .3s;
+}
+
+.idselected {
+  margin-top: auto;
+}
+
+.placeVIP table {
+  margin: auto;
+}
+
+.placeVIPtop table {
+  margin: auto;
+}
+
+.placeVIPBottom table {
+margin: auto;
+margin-bottom: 2vw;
+}
+
+.placeZone1 table  {
+  margin: auto;
+}
+
+.placeZone1top table {
+  margin: auto;
+}
+
+.placeZone1Bottom table {
+margin: auto;
+margin-bottom: 2vw;
+}
+
+.placeZone2 table  {
+  margin: auto;
+}
+
+.placeZone2top table {
+  margin: auto;
+}
+
+.placeZone2Bottom table {
+margin: auto;
+margin-bottom: 2vw;
+}
+
+.placeZone3 table  {
+  margin: auto;
+}
+
+.placeZone3top table {
+  margin: auto;
+}
+
+.placeZone3Bottom table {
+margin: auto;
+margin-bottom: 2vw;
+}
+
+.placeZone4 table  {
+  margin: auto;
+}
+
+.placeZone4top table {
+  margin: auto;
+}
+
+.placeZone4Bottom table {
+margin: auto;
+margin-bottom: 2vw;
+}
+
+.btnreserve{
+  margin: 1vw 0 1vw 0;
+  width: 10vw;
+  height: 50px;
+  border: 1px solid;
+  background: #002038;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  transition: .5s;
+}
+.btnreserve:hover{
+  background: #80909C;
+  transition: .5s;
+}
+
+
+.formsieges {
+  margin: auto;
+  margin-top:2vw;
+  margin-bottom: 5vw;
+  width:40vw;
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  border: 1px solid #00203813;
+  box-shadow: 5px 5px 10px #0000003c;
+  text-align: center;
+  justify-content: center;
+}
+
+.titre {
+  text-align: center;
+}
+
+.connexionRecquise {
+  margin: auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  width: 40vw;
+  height: 13vw;
+  border-radius: 4px;
+  border: 1px solid #00203813;
+  box-shadow: 5px 5px 10px #0000003c;
+  text-align: center;
+  justify-content: center;
+}
+
+.co{
+  margin: auto;
+  width: 10vw;
+  height: 3vw;
+  border: 1px solid;
+  background: #002038;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  transition: .5s;
+  font-size: 1em;
+}
+.co:hover{
+  background: #80909C;
+  transition: .5s;
+}
+
+.cotxt {
+  font-size: 1em;
+}
+
+.attention {
+  margin-top: 1vw;
+  width: 3vw;
+  height: 3vw;
+}
+
+.panier {
+  display: flex;
+  width: 6vw;
+  height: 2vw;
+  padding-left: 0.3vw;
+  padding-top: 0.1vw;
+  border-radius: 25px;
+  border: 1px solid #00203813;
+  transition: .5s;
+  box-shadow: 2px 2px 7px #0000003c;
+  position: absolute;
+  margin-left: 70vw;
+  margin-top: -5vw;
+}
+
+.prixTotal {
+  margin-top: -0.2vw;
+  margin-left: 0.2vw;
+}
+
+.picto {
+  color: #002038;
+}
+

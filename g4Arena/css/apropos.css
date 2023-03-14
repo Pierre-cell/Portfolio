@@ -1,0 +1,41 @@
+body {
+    font-family: "Montserrat", 'Trebuchet MS';
+}
+
+.concert,
+.concert2,
+.concert3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 3% 3% 3%;
+}
+
+.photo1 {
+    width: 30%;
+    margin: 0 3% 0 3%;
+    box-shadow: 5px 5px 5px black;
+}
+
+.photo2 {
+    width: 25%;
+    margin-right: 5%;
+    box-shadow: 5px 5px 5px black;
+}
+
+h1 {
+    margin-left: 10%;
+    text-decoration: underline #FFD685;
+}
+
+h2 {
+    text-align: end;
+    margin-right: 10%;
+    text-decoration: underline #FFD685;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}

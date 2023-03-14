@@ -1,0 +1,55 @@
+footer{
+
+    background:#80909C;
+    width:100%;
+
+   
+    }
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer1 iframe{
+    padding-top: 10px;
+}
+.pageannexe{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 1%;
+    font-size: small;
+}
+.liens{
+    transition: .5s;
+}
+.liens:hover{
+    color:#FFD685;
+    transition: .5s;
+}
+.logo{
+        width:100%;
+    } 
+.pictos 
+{
+   font-size: 300%;
+}
+.pictos:hover{
+    color:#FFD685;
+}
+a
+{
+    color:#002038;
+}
+.lienlogo{
+    width: 30%;
+    height: 70%;
+}
+.gras{
+    font-size: large;
+    font-weight: bold;
+}
+.siege{
+    width: 15px;
+    height: 15px;
+}
